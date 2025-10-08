@@ -1,0 +1,223 @@
+.navbar-brand{
+ color: rgb(240, 5, 5);
+}
+
+.bg{
+  background-color: rgb(148, 149, 150,0.1);
+}
+.boopathi{
+  height: 750px;
+
+}
+
+.boopathi-img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.iniyan ul{
+  list-style: none;
+}
+
+.iniyan ul li{
+  padding-top: 5px;
+}
+
+/* .iniyan ul li a{
+  text-decoration: none;
+  color: white;
+} */
+
+.hii{
+  height: 30px;
+  background-color: antiquewhite;
+}
+
+
+.testimonial-card {
+      background: #fff9f4;
+      border-radius: 10px;
+      padding: 30px;
+      min-height: 200px;
+      position: relative;
+    }
+    .testimonial-card::before {
+      content: "❝";
+      font-size: 40px;
+      color: goldenrod;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+    .author {
+      margin-top: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+
+.card{
+  height: 500px;
+}
+.card-img-top{
+  height: 350px !important;
+}
+
+.abt{
+  width: 720px;
+}
+
+.product-card {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.product-card:hover {
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  transform: translateY(-5px);
+}
+
+.card img {
+      height: 220px;
+      object-fit: cover;
+    
+    }
+    .discount {
+      color: green;
+      font-weight: 600;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+    }
+    .badge-custom {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 6px 10px;
+      font-size: 0.75rem;
+    }
+    .wishlist {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 5px 7px;
+      cursor: pointer;
+    }
+
+    .marquee-container {
+      overflow: hidden;
+      white-space: nowrap;
+      background: #f8f9fa;
+      padding: 10px 0;
+    }
+    .marquee-images {
+      display: inline-block;
+      animation: scroll-left 20s linear infinite;
+    }
+    .marquee-images img {
+      height: 150px;
+      margin: 0 15px;
+      border-radius: 10px;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .watch-section {
+      background: rgb(240, 188, 129);
+      padding: 50px 20px;
+      border-radius: 10px;
+    }
+    .watch-img {
+      width: 100%;
+      max-width: 350px;
+      transition: all 0.3s ease-in-out;
+    }
+    .watch-img:hover {
+      content: url("images/img17.webp"); /* Second image on hover */
+    }
+    .watch-text {
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    
+    .to{
+      position:fixed ;
+    }
+
+    .trending-card {
+      overflow: hidden;
+      border-radius: 12px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .trending-card img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease;
+    }
+
+    .trending-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .trending-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255,255,255,0.9);
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .caption:hover {
+      background: black;
+      color: white;
+    }
+    .featured-section {
+      position: relative;
+      background: url('https://i.pinimg.com/1200x/6b/7c/e6/6b7ce6f8385bea8c9ed611a894cfc211.jpg') no-repeat center center/cover;
+      min-height: 500px;
+      color: rgb(15, 15, 15);
+      display: flex;
+      align-items: center;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      padding: 50px;
+    }
+
+    .badge-feature {
+      background: red;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
